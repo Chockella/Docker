@@ -1,4 +1,0 @@
-docker run -d --name mon-apache -p 8080:80 httpd
-docker run -d --name mon-nginx -p 8081:80  nginx
-docker run -d --name mon-wordpress -p 8082:80 wordpress
-docker run -d --name mon-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
